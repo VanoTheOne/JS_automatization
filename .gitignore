@@ -1,2 +1,4 @@
 node_modules
 build
+mochawesome-report
+coverage
