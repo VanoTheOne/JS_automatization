@@ -8,7 +8,7 @@ interface Admin {
     role?: string
 }
 
-interface Person extends User, Admin {};
+type Person = User | Admin;
 
 const persons: Person[] = [
     {
